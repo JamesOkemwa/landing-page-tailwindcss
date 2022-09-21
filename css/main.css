@@ -886,6 +886,13 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+body {
+  background-image: url('../img/bg-tablet-pattern.svg');
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: 90% -25%;
+}
+
 .hover\:bg-brightRedLight:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(12 88% 69% / var(--tw-bg-opacity));
